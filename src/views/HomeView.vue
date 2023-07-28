@@ -1,5 +1,5 @@
 <script setup>
-import InputType from '../components/InputType.vue'
+import InputType from '../components/login components/InputType.vue'
 const placeholders = ['texto 1', 'texto2', 'kjfkdjkjdk  ']
 const vmodel = ['texto dsds', 'texto2dds', 'dsdsds  ']
 </script>
