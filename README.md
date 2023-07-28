@@ -1,4 +1,3 @@
 # HACKATHONREAL
 
-HACKATHON
-
+Jame's services site project
