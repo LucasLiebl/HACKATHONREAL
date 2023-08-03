@@ -29,10 +29,7 @@ const props = defineProps({
     border-radius: 10px;
 background: #F1F1F1;
 box-shadow: 4px 4px 4px 0px rgba(54, 53, 53, 0.25);
-
-}
-.input::placeholder{
-  color: #8F8E8E;
+color: #000000;
 font-family: Nunito;
 font-size: 20px;
 font-style: normal;
@@ -40,8 +37,9 @@ font-weight: 900;
 line-height: normal;
 text-transform: uppercase;
 padding-left: 20px;
-transform: translate(0, 10%);
+
 }
+
 .inputSquare{
   height: 68px;
   width: 68px;
@@ -61,5 +59,8 @@ justify-content: center;
 .icon{
   width: 40px;
 height: 40px;
+}
+.input::placeholder{
+  color: #8F8E8E;
 }
 </style>
