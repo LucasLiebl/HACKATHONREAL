@@ -1,7 +1,10 @@
 <script setup>
-</script>
 
+</script>
 <template>
-  <main>
-  </main>
+
 </template>
+
+<style>
+
+</style>
