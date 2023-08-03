@@ -1,11 +1,12 @@
 <script setup>
 import InputType from '../components/login components/InputType.vue'
-const placeholders = ['texto 1', 'texto2', 'kjfkdjkjdk  ']
-const vmodel = ['texto dsds', 'texto2dds', 'dsdsds  ']
+const placeholder = 'texto 1'
+const type = 'email';
+const icon = 'envelope'
 </script>
 <template>
 
-  <input-type v-for="(placeholder, i) in placeholders" :key="i" :placeholder="placeholder" :vmodel="vmodel" />
+  <input-type :type="type" :icon="icon" :placeholder="placeholder" />
 
 </template>
 

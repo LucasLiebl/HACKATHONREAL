@@ -1,14 +1,22 @@
 <script setup>
 const props = defineProps({
   placeholder: String,
-  vmodel: String
+  type: String,
+  icon: String,
 })
 
 </script>
 
 <template>
+  <div class="inputTotal">
+    <input class="input" :v-model="props.type" :placeholder="props.placeholder">
 
-<input class="input" :v-model="props.vmodel" :placeholder="props.placeholder">
+<div class="inputSquare">
+  <font-awesome-icon class="icon"  :icon="props.icon" style="color: #000000;" />
+</div>
+  </div>
+
+
 
 </template>
 
@@ -33,5 +41,25 @@ line-height: normal;
 text-transform: uppercase;
 padding-left: 20px;
 transform: translate(0, 10%);
+}
+.inputSquare{
+  height: 68px;
+  width: 68px;
+  background-color: red;
+  border-radius: 10px;
+background: #DC1B1B;
+box-shadow: 4px 4px 4px 0px rgba(54, 53, 53, 0.25);
+display: flex;
+justify-content: center;
+    align-items: center;
+
+}
+.inputTotal{
+  display: flex;
+  column-gap: 12px;
+}
+.icon{
+  width: 40px;
+height: 40px;
 }
 </style>
