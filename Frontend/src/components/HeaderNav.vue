@@ -11,8 +11,8 @@ const props = defineProps({
             <h1>Jame's</h1>
         </div>
         <nav class="NavText">
-            <h1>teste</h1>
-            <h1>teste</h1>
+            <h1>{{ props.text1 }}</h1>
+            <h1>{{ props.text2 }}</h1>
         </nav>
     </header>
 </template>
@@ -23,9 +23,11 @@ const props = defineProps({
     width: 100%;
     height: 100px;
     background: linear-gradient(90deg, #FF4848 0%, #FF6E4F 96.57%);
-    padding-left: 20px;
     align-items: center;
     justify-content: space-between;
+    font-size: 48px;
+
+    
 }
 
 img {
@@ -46,12 +48,18 @@ h1 {
 .logo {
     display: grid;
     justify-items: center;
+    margin-left: 20px;  
+    margin-bottom: -5px;
 }
 
 .NavText {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: flex-end;
+    margin-right: 20px;  
+    align-items: center
+
 }
 
 .NavText h1 {
