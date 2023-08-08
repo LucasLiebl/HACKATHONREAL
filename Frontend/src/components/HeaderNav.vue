@@ -1,7 +1,10 @@
 <script setup>
+import {useRouter} from 'vue-router';
+const router = useRouter();
 const props = defineProps({
     text1: String,
     text2: String,
+    localto: String
 })
 
 </script>
@@ -11,8 +14,8 @@ const props = defineProps({
             <h1>Jame's</h1>
         </div>
         <nav class="NavText">
-            <h1>{{ props.text1 }}</h1>
-            <h1>{{ props.text2 }}</h1>
+            <div class="box-text"><RouterLink :to="props.localto"> <h1>{{ props.text1 }}</h1></RouterLink> </div>
+            
         </nav>
     </header>
 </template>
@@ -30,12 +33,12 @@ const props = defineProps({
     
 }
 
-img {
+.logo img {
     width: 70px;
     height: 70px;
 }
 
-h1 {
+.logo h1 {
     color: #FFF;
     font-family: Nunito;
     font-size: 20px;
@@ -63,10 +66,20 @@ h1 {
 }
 
 .NavText h1 {
-    color: #FFF;
+    text-decoration: underline;
+    color: #FF4848;
     font-family: Nunito;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-}</style>
+}
+.box-text{
+    display: flex;
+    width: 145px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+}
+</style>
