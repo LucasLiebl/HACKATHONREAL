@@ -17,7 +17,7 @@ const props = defineProps({
 height: 45px;
 flex-shrink: 0;
 border-radius: 10px;
-background: linear-gradient(273deg, #F65531 0%, #DC1B1B 100%);
+background: linear-gradient(90deg, #FF4848 0%, #FF6E4F 100%);
 box-shadow: 5px 4px 4px 0px rgba(54, 53, 53, 0.25);
 color: #FFF;
 font-family: Nunito;
