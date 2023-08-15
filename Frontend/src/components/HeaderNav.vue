@@ -5,15 +5,17 @@ const props = defineProps({
   text1: String,
   text2: String,
   localto: String,
-  localto2: String
-
+  localto2: String,
+  localto3: String
 })
 </script>
 <template>
   <header class="header">
-    <div class="logo">
-      <img src="https://i.imgur.com/7TZ6Sm6.png" alt="" />
-      <h1>Jame's</h1>
+    <div>
+      <RouterLink :to="props.localto3" class="logo">
+        <img src="https://i.imgur.com/7TZ6Sm6.png" alt="" />
+        <h1>Jame's</h1>
+      </RouterLink>
     </div>
     <nav class="NavText">
       <div class="box-text">
@@ -30,7 +32,7 @@ const props = defineProps({
   </header>
 </template>
 
-<style>
+<style scoped>
 .header {
   display: flex;
   width: 100%;

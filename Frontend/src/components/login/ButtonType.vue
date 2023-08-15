@@ -9,19 +9,19 @@ const props = defineProps({
 <button class="button"> {{props.buttontext}} </button>
 </template>
 
-<style>
+<style scoped>
 .button{
     border: none;
   outline: none;
-    width: 270px;
-height: 45px;
+    width: 14.06vw;
+height: 4.17vh;
 flex-shrink: 0;
-border-radius: 10px;
+border-radius: 8px;
 background: linear-gradient(90deg, #FF4848 0%, #FF6E4F 100%);
 box-shadow: 5px 4px 4px 0px rgba(54, 53, 53, 0.25);
 color: #FFF;
 font-family: Nunito;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;

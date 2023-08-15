@@ -24,14 +24,14 @@ const props = defineProps({
 .input{
     border: none;
   outline: none;
-    width: 508px;
-    height: 68px;
+    width: 26.46vw;
+    height: 6.20vh;
     border-radius: 10px;
 background: #F1F1F1;
 box-shadow: 4px 4px 4px 0px rgba(54, 53, 53, 0.25);
 color: #000000;
 font-family: Nunito;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
@@ -41,8 +41,8 @@ padding-left: 20px;
 }
 
 .inputSquare{
-  height: 68px;
-  width: 68px;
+  height: 6.30vh;
+  width: 6.30vh;
   background-color: red;
   border-radius: 10px;
 background: #DC1B1B;
@@ -61,6 +61,7 @@ justify-content: center;
 height: 40px;
 }
 .input::placeholder{
+  font-size: 15px;
   color: #8F8E8E;
 }
 </style>
