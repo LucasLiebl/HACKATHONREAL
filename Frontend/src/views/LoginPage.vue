@@ -4,7 +4,7 @@ import ButtonType from '../components/login/ButtonType.vue'
 import InputType from '../components/login/InputType.vue'
 </script>
 <template>
-  <header-nav text1="t1" text2="t2" localto="/" localto2="/loginpage" localto3="/"> </header-nav>
+  <header-nav text1="" text2="" localto="" localto2="" localto3=""> </header-nav>
 
   <main>
     <div class="container">
@@ -14,14 +14,14 @@ import InputType from '../components/login/InputType.vue'
       </div>
 
       <div class="inputs">
-        <InputType placeholder="Teste" icon="envelope"> </InputType>
-        <InputType placeholder="Teste" icon="eye"> </InputType>
+        <InputType placeholder="email" icon="envelope"> </InputType>
+        <InputType placeholder="senha" icon="eye"> </InputType>
       </div>
 
       <a class="forgotPass"> <RouterLink to="/"> FORGOT PASSWORD?</RouterLink> </a>
       <div class="buttons">
-        <button-type buttontext="teste"> </button-type>
-        <button-type buttontext="teste"> </button-type>
+        <button-type buttontext="login"> </button-type>
+        <button-type buttontext="register"> </button-type>
       </div>
     </div>
     <div class="footer">

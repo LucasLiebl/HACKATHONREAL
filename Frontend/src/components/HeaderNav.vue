@@ -74,9 +74,13 @@ const props = defineProps({
   align-items: center;
 }
 
+a{
+  text-decoration: none;
+}
 .NavText h1 {
-  text-decoration: underline;
-  color: #ff4848;
+
+  text-decoration: none;
+  color: #ffffff;
   font-family: Nunito;
   font-size: 48px;
   font-style: normal;
@@ -88,7 +92,6 @@ const props = defineProps({
   width: 145px;
   height: 70px;
   border-radius: 15px;
-  background-color: white;
   justify-content: center;
 }
 </style>
