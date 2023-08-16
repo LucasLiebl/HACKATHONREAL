@@ -89,7 +89,6 @@ a{
 }
 .box-text {
   display: flex;
-  width: 145px;
   height: 70px;
   border-radius: 15px;
   justify-content: center;

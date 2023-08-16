@@ -96,7 +96,6 @@ main {
   position: fixed;
   bottom: -10px;
   z-index: -1;
-
 }
 svg {
   overflow: hidden;
