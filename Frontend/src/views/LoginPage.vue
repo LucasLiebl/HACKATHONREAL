@@ -20,8 +20,8 @@ import InputType from '../components/login/InputType.vue'
 
       <a class="forgotPass"> <RouterLink to="/"> FORGOT PASSWORD?</RouterLink> </a>
       <div class="buttons">
-        <button-type buttontext="login"> </button-type>
-        <button-type buttontext="register"> </button-type>
+        <button-type class="button" buttontext="login"> </button-type>
+        <button-type class="button" buttontext="register"> </button-type>
       </div>
     </div>
     <div class="footer">
@@ -105,6 +105,10 @@ svg {
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 22px;
+  justify-items: center;
+}
+.button:active{
+transform: scale(0.9);
 }
 .titles {
   display: flex;

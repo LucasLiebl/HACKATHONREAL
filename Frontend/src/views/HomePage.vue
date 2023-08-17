@@ -3,10 +3,10 @@ import HeaderNav from '../components/HeaderNav.vue'
 import ButtonType from '../components/login/ButtonType.vue';
 </script>
 <template>
-  <header-nav text1="Login" text2="SignUp" localto="" localto2="" localto3=""> </header-nav>
+  <header-nav text1="Login" text2="SignUp" localto="/loginpage" localto2="" localto3=""> </header-nav>
   <main class="container">
       <div class="title"><h1>the ideal chef for your will!</h1></div>
-    <button-type buttontext="HIRE NOW">
+    <button-type class="button" buttontext="HIRE NOW">
 
     </button-type>
   </main>
@@ -69,7 +69,20 @@ import ButtonType from '../components/login/ButtonType.vue';
 <style scoped>
 .container{
     display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
+.button{
+  top: 24.17vh;
+  position: relative;
+left: 8.22vw;
+transform: scale(1.6);
+
+}
+button:active{
+transform: scale(1.4);
+}
+
 
 h1 {
   color: #000;
@@ -91,5 +104,10 @@ svg {
   width: 57.19vw;
   height: 19.91vh;
   flex-shrink: 0;
+  position: relative;
+  top: 24.17vh;
+  left: 4.22vw;
+
 }
+
 </style>
