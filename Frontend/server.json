@@ -1,0 +1,307 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "descricao": "Doces de festa"
+    },
+    {
+      "descricao": "Pasta",
+      "id": 2
+    },
+    {
+      "descricao": "Hot Dog",
+      "id": 3
+    },
+    {
+      "descricao": "Burger",
+      "id": 4
+    },
+    {
+      "descricao": "Taco",
+      "id": 5
+    },
+    {
+      "descricao": "Sushi",
+      "id": 6
+    },
+    {
+      "descricao": "Seafood",
+      "id": 7
+    },
+    {
+      "descricao": "Pizza",
+      "id": 8
+    },
+    {
+      "descricao": "Drinks",
+      "id": 9
+    },
+    {
+      "descricao": "Spicy food",
+      "id": 10
+    },
+    {
+      "descricao": "Soup",
+      "id": 11
+    }
+  ],
+  "chefs": [
+    {
+      "id": 1,
+      "nome": "Marco Rojas",
+      "categoriaId": 2
+    },
+    {
+      "id": 2,
+      "nome": "Eduardo da Silva",
+      "categoriaId": 1
+    },
+    {
+      "id": 3,
+      "nome": "Fabio Longo de Moura",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "nome": "Marco André",
+      "categoriaId": 1
+    },
+    {
+      "id": 5,
+      "nome": "Rogerinho da Silva",
+      "categoriaId": 1
+    }, 
+    {
+      "id": 6,
+      "nome": "James Salads Fruit",
+      "categoriaId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "João Vitor Gomes",
+      "categoriaId": 1
+    },
+    {
+      "id": 8,
+      "nome": "Eduardo Boaventura Montandon",
+      "categoriaId": 1
+    },
+      {
+      "id": 9,
+      "nome": "Lucas liebl",
+      "categoriaId": 1
+    },
+    {
+      "id": 10,
+      "nome": "Matheus Vidal Zenere",
+      "categoriaId": 1
+    },
+    {
+      "id": 11,
+      "nome": "Valentina da Trindade Pera",
+      "categoriaId": 1
+    },
+    {
+      "id": 12,
+      "nome": "Ana Sofia Berg",
+      "categoriaId": 1
+    },
+    {
+      "nome": "Clerinton Souza",
+      "categoriaId": 1,
+      "id": 13
+    },
+    {
+      "nome": "Ednaldo Pereira",
+      "categoriaId": 1,
+      "id": 14
+    },
+    {
+      "nome": "Bruno Marquesi de Macedo",
+      "categoriaId": 1,
+      "id": 15
+    },
+    {
+      "nome": "Abel Ferreira",
+      "categoriaId": 1,
+      "id": 16
+    },
+    {
+      "nome": "Raphael Cavalcante Veiga",
+      "categoriaId": 1,
+      "id": 17
+    },
+    {
+      "nome": "Gustavo Gomez",
+      "categoriaId": 1,
+      "id": 18
+    },
+    {
+      "nome": "Eduardo Pereira Rodrigues",
+      "categoriaId": 1,
+      "id": 19
+    },
+    {
+      "nome": "Derek Lucas",
+      "categoriaId": 1,
+      "id": 20
+    },
+    {
+      "nome": "Thiago Veigh",
+      "categoriaId": 1,
+      "id": 21
+    },
+    {
+      "nome": "Kim Kataguiri",
+      "categoriaId": 1,
+      "id": 22
+    },
+    {
+      "nome": "Pumapjl",
+      "categoriaId": 1,
+      "id": 23
+    },
+    {
+      "nome": "Kayblack",
+      "categoriaId": 1,
+      "id": 24
+    },
+    {
+      "nome": "G.A",
+      "categoriaId": 1,
+      "id": 25
+    },
+    {
+      "nome": "Ryu, The Runner",
+      "categoriaId": 1,
+      "id": 26
+    },
+    {
+      "nome": "Danilo Gentili",
+      "categoriaId": 1,
+      "id": 27
+    },
+    {
+      "nome": "Bruno Monteiro Auib",
+      "categoriaId": 1,
+      "id": 28
+    },
+    {
+      "nome": "Kant",
+      "categoriaId": 1,
+      "id": 29
+    },
+    {
+      "nome": "Zuluzão",
+      "categoriaId": 1,
+      "id": 30
+    },
+    {
+      "nome": "Jhony",
+      "categoriaId": 1,
+      "id": 31
+    },
+    {
+      "nome": "shuler",
+      "categoriaId": 1,
+      "id": 32
+    },
+    {
+      "nome": "Cezar",
+      "categoriaId": 1,
+      "id": 32
+    },
+    {
+      "nome": "Leonardo Lins",
+      "categoriaId": 1,
+      "id": 33
+    },
+    {
+      "nome": "Renato Cariani",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "nome": "Serjão Space Today",
+      "categoriaId": 1,
+      "id": 35
+    },
+    {
+      "nome": "Rodrigo Góes",
+      "categoriaId": 1,
+      "id": 36
+    },
+    {
+      "nome": "Chris Bumstead",
+      "categoriaId": 1,
+      "id": 37
+    },
+    {
+      "nome": "CBUM",
+      "categoriaId": 1,
+      "id": 38
+    },
+    {
+      "nome": "Marcelo Rossi",
+      "categoriaId": 1,
+      "id": 39
+    },
+    {
+      "nome": "Celso Portioli",
+      "categoriaId": 1,
+      "id": 40
+    },
+    {
+      "nome": "Tata Werneck",
+      "categoriaId": 1,
+      "id": 41
+    },
+    {
+      "nome": "Crystian Reinaldo",
+      "categoriaId": 1,
+      "id": 42
+    },
+    {
+      "nome": "Leonardo Messias",
+      "categoriaId": 1,
+      "id": 43
+    },
+    {
+      "nome": "Rayan Renaldo",
+      "categoriaId": 1,
+      "id": 44
+    },
+    {
+      "nome": "Ruan Victor Felicio",
+      "categoriaId": 1,
+      "id": 45
+    },
+    {
+      "nome": "Daniel Penin",
+      "categoriaId": 1,
+      "id": 46
+    },
+    {
+      "nome": "Ronaldinho Soccer",
+      "categoriaId": 1,
+      "id": 47
+    },
+    {
+      "nome": "Mano White",
+      "categoriaId": 1,
+      "id": 48
+    }
+  ]
+}
