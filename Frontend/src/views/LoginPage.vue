@@ -1,7 +1,10 @@
 <script setup>
+import { ref } from 'vue'
 import HeaderNav from '../components/HeaderNav.vue'
 import ButtonType from '../components/login/ButtonType.vue'
 import InputType from '../components/login/InputType.vue'
+
+const showPassword = ref(false)
 </script>
 <template>
   <header-nav text1="" text2="" localto="" localto2="" localto3=""> </header-nav>
@@ -14,8 +17,14 @@ import InputType from '../components/login/InputType.vue'
       </div>
 
       <div class="inputs">
-        <InputType placeholder="email" icon="envelope"> </InputType>
-        <InputType placeholder="senha" icon="eye"> </InputType>
+        <InputType type="email" placeholder="email" icon="envelope"> </InputType>
+        <InputType
+          @buttonClicked="showPassword = !showPassword"
+          :type="showPassword ? 'text' : 'password'"
+          placeholder="senha"
+          :icon="showPassword ? 'eye' : 'eye-slash'"
+        >
+        </InputType>
       </div>
 
       <a class="forgotPass"> <RouterLink to="/"> FORGOT PASSWORD?</RouterLink> </a>
@@ -99,7 +108,6 @@ main {
 }
 svg {
   overflow: hidden;
-  
 }
 .buttons {
   display: grid;
@@ -107,8 +115,8 @@ svg {
   row-gap: 22px;
   justify-items: center;
 }
-.button:active{
-transform: scale(0.9);
+.button:active {
+  transform: scale(0.9);
 }
 .titles {
   display: flex;
