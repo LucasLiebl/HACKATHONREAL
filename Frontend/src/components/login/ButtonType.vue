@@ -31,7 +31,4 @@ transition: .3s ;
 .button:hover{
 cursor: pointer;
 }
-.button:active{
-transform: scale(0.9);
-}
 </style>

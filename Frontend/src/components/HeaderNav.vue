@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <header class="header">
     <div>
-      <RouterLink :to="props.localto3" class="logo">
+      <RouterLink to="/" class="logo">
         <img src="https://i.imgur.com/7TZ6Sm6.png" alt="" />
         <h1>Jame's</h1>
       </RouterLink>
@@ -89,7 +89,6 @@ a{
 }
 .box-text {
   display: flex;
-  width: 145px;
   height: 70px;
   border-radius: 15px;
   justify-content: center;

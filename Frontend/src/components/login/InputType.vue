@@ -1,17 +1,20 @@
 <script setup>
+
 const props = defineProps({
   placeholder: String,
   type: String,
   icon: String,
 })
 
+const emits = defineEmits(['buttonClicked'])
+
 </script>
 
 <template>
   <div class="inputTotal">
-    <input class="input" :v-model="props.type" :placeholder="props.placeholder">
+    <input class="input" :v-model="props.type" :type="props.type" :placeholder="props.placeholder">
 
-<div class="inputSquare">
+<div class="inputSquare" @click="emits('buttonClicked')">
   <font-awesome-icon class="icon"  :icon="props.icon" style="color: #000000;" />
 </div>
   </div>
@@ -50,6 +53,7 @@ box-shadow: 4px 4px 4px 0px rgba(54, 53, 53, 0.25);
 display: flex;
 justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
 .inputTotal{
