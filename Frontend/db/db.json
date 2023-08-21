@@ -49,27 +49,32 @@
       {
         "id": 1,
         "nome": "Marco Rojas",
-        "categoriaId": 2
+        "categoriaId": 2,
+        "statusId": 1 
       },
       {
         "id": 2,
         "nome": "Eduardo da Silva",
-        "categoriaId": 4
+        "categoriaId": 4,
+        "statusId": 1
       },
       {
         "id": 3,
         "nome": "Fabio Longo de Moura",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 4,
         "nome": "Marco André",
-        "categoriaId": 1
+        "categoriaId": 1,
+        "statusId": 1
       },
       {
         "id": 5,
         "nome": "Rogerinho da Silva",
-        "categoriaId": 2
+        "categoriaId": 2,
+        "statusId": 1
       }, 
       {
         "id": 6,
@@ -86,217 +91,260 @@
           9,
           10,
           11
-        ]
+        ],
+        "statusId": 1
       },
       {
         "id": 7,
         "nome": "João Vitor Gomes",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 8,
         "nome": "Eduardo Boaventura Montandon",
-        "categoriaId": 11
+        "categoriaId": 11,
+        "statusId": 1
       },
         {
         "id": 9,
         "nome": "Lucas liebl",
-        "categoriaId": 1
+        "categoriaId": 1,
+        "statusId": 1
       },
       {
         "id": 10,
         "nome": "Matheus Vidal Zenere",
-        "categoriaId": 5
+        "categoriaId": 5,
+        "statusId": 1
       },
       {
         "id": 11,
         "nome": "Valentina da Trindade Pera",
-        "categoriaId": 5
+        "categoriaId": 5,
+        "statusId": 1
       },
       {
         "id": 12,
         "nome": "Ana Sofia Berg",
-        "categoriaId": 8
+        "categoriaId": 8,
+        "statusId": 1
       },
       {
         "id": 13,
         "nome": "Clerinton Souza",
-        "categoriaId": 1
+        "categoriaId": 1,
+        "statusId": 1
       },
       {
         "id": 14,
         "nome": "Ednaldo Pereira",
-        "categoriaId": 4
+        "categoriaId": 4,
+        "statusId": 1
       },
       {
         "id": 15,
         "nome": "Bruno Marquesi de Macedo",
-        "categoriaId": 3
+        "categoriaId": 3,
+        "statusId": 1
       },
       {
         "id": 16,
         "nome": "Abel Ferreira",
-        "categoriaId": 2
+        "categoriaId": 2,
+        "statusId": 1
       },
       {
         "id": 17,
         "nome": "Raphael Cavalcante Veiga",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 18,
         "nome": "Gustavo Gomez",
-        "categoriaId": 4
+        "categoriaId": 4,
+        "statusId": 1
       },
       {
         "id": 19,
         "nome": "Eduardo Pereira Rodrigues",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 20,
         "nome": "Derek Lucas",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 21,
         "nome": "Thiago Veigh",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 22,
         "nome": "Kim Kataguiri",
-        "categoriaId": 6
+        "categoriaId": 6,
+        "statusId": 1
       },
       {
         "id": 23,
         "nome": "Pumapjl",
-        "categoriaId": 10
+        "categoriaId": 10,
+        "statusId": 1
       },
       {
         "id": 24,
         "nome": "Kayblack",
-        "categoriaId": 5
+        "categoriaId": 5,
+        "statusId": 1
       },
       {
         "id": 25,
         "nome": "G.A",
-        "categoriaId": 1
+        "categoriaId": 1,
+        "statusId": 1
       },
       {
         "id": 26,
         "nome": "Ryu, The Runner",
-        "categoriaId": 10
+        "categoriaId": 10,
+        "statusId": 1
       },
       {
         "id": 27,
         "nome": "Danilo Gentili",
-        "categoriaId": 11
+        "categoriaId": 11,
+        "statusId": 1
       },
       {
         "id": 28,
         "nome": "Bruno Monteiro Auib",
-        "categoriaId": 9
+        "categoriaId": 9,
+        "statusId": 1
       },
       {
         "id": 29,
         "nome": "Kant",
-        "categoriaId": 3
+        "categoriaId": 3,
+        "statusId": 1
       },
       {
         "id": 30,
         "nome": "Zuluzão",
-        "categoriaId": 3
+        "categoriaId": 3,
+        "statusId": 1
       },
       {
         "id": 31,
         "nome": "Jhony",
-        "categoriaId": 10
+        "categoriaId": 10,
+        "statusId": 1
       },
       {
         "id": 32,
         "nome": "Cezar",
-        "categoriaId": 4
+        "categoriaId": 4,
+        "statusId": 1
       },
       {
         "id": 33,
         "nome": "Leonardo Lins",
-        "categoriaId": 3
+        "categoriaId": 3,
+        "statusId": 1
       },
       {
         "id": 34,
         "nome": "Renato Cariani",
-        "categoriaId": 5
+        "categoriaId": 5,
+        "statusId": 1
       },
       {
         "id": 35,
         "nome": "Serjão Space Today",
-        "categoriaId": 9
+        "categoriaId": 9,
+        "statusId": 1
       },
       {
         "id": 36,
         "nome": "Rodrigo Góes",
-        "categoriaId": 1
+        "categoriaId": 1,
+        "statusId": 1
       },
       {
         "id": 37,
         "nome": "Chris Bumstead",
-        "categoriaId": 2
+        "categoriaId": 2,
+        "statusId": 1
       },
       {
         "id": 38,
         "nome": "CBUM",
-        "categoriaId": 2
+        "categoriaId": 2,
+        "statusId": 1
       },
       {
         "id": 39,
         "nome": "Marcelo Rossi",
-        "categoriaId": 6
+        "categoriaId": 6,
+        "statusId": 1
       },
       {
         "id": 40,
         "nome": "Celso Portioli",
-        "categoriaId": 5
+        "categoriaId": 5,
+        "statusId": 1
       },
       {
         "id": 41,
         "nome": "Tata Werneck",
-        "categoriaId": 8
+        "categoriaId": 8,
+        "statusId": 1
       },
       {
         "id": 42,
         "nome": "Crystian Reinaldo",
-        "categoriaId": 7
+        "categoriaId": 7,
+        "statusId": 1
       },
       {
         "id": 43,
         "nome": "Leonardo Messias",
-        "categoriaId": 10
+        "categoriaId": 10,
+        "statusId": 1
       },
       {
         "id": 44,
         "nome": "Rayan Renaldo",
-        "categoriaId": 11
+        "categoriaId": 11,
+        "statusId": 1
       },
       {
         "id": 45,
         "nome": "Ruan Victor Felicio",
-        "categoriaId": 11
+        "categoriaId": 11,
+        "statusId": 1
       },
       {
         "id": 46,
         "nome": "Daniel Penin",
-        "categoriaId": 3
+        "categoriaId": 3,
+        "statusId": 1
       },
       {
         "id": 47,
         "nome": "Ronaldinho Soccer",
-        "categoriaId": 8
+        "categoriaId": 8,
+        "statusId": 1
       },
       {
         "id": 48,
         "nome": "Mano White",
-        "categoriaId": 2
+        "categoriaId": 2,
+        "statusId": 1
       }
     ],
     "status": [
