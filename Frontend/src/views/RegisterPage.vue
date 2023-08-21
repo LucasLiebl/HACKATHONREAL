@@ -6,17 +6,19 @@ import InputType from '../components/login/InputType.vue'
 
 const showPassword = ref(false)
 </script>
+
 <template>
-  <header-nav text1="" text2="" localto="" localto2="" localto3=""> </header-nav>
+<header-nav text1="" text2="" localto="" localto2="" localto3=""> </header-nav>
 
-  <main>
-    <div class="container">
-      <div class="titles">
-        <h1>welcome to jame’s</h1>
-        <h2>login to continue</h2>
-      </div>
-
-      <div class="inputs">
+<main>
+  <div class="container">
+    <div class="titles">
+      <h1>REGISTER TO CONTINUE</h1>
+   
+    </div>
+    </div>
+    <div class="inputs">
+        <InputType type="text" placeholder="name" icon=""> </InputType>
         <InputType type="email" placeholder="email" icon="envelope"> </InputType>
         <InputType
           @buttonClicked="showPassword = !showPassword"
@@ -26,13 +28,6 @@ const showPassword = ref(false)
         >
         </InputType>
       </div>
-
-      <a class="forgotPass"> <RouterLink to="/"> FORGOT PASSWORD?</RouterLink> </a>
-      <div class="buttons">
-        <button-type class="button" buttontext="login"> </button-type>
-        <RouterLink to="/registerpage"><button-type class="button" buttontext="register">  </button-type></RouterLink>
-      </div>
-    </div>
     <div class="footer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +88,7 @@ const showPassword = ref(false)
         </defs>
       </svg>
     </div>
-  </main>
+</main>
 </template>
 
 <style scoped>
@@ -137,34 +132,6 @@ svg {
   flex-direction: column;
   align-items: center;
 }
-a {
-  color: rgba(28, 119, 225, 0.6);
-}
-.forgotPass {
-  width: 29vw;
-  margin-bottom: 52px;
-  color: rgba(28, 119, 225, 0.6);
-  font-family: Nunito;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 800;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
 h1 {
   color: #000;
   font-family: Nunito;
@@ -174,13 +141,13 @@ h1 {
   line-height: normal;
   text-transform: uppercase;
 }
-h2 {
-  color: #797373;
+.forgotPass {
+  width: 29vw;
+  margin-bottom: 52px;
+  color: rgba(28, 119, 225, 0.6);
   font-family: Nunito;
-  font-size: 15px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
 }
 </style>
